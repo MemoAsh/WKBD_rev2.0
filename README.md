@@ -6,6 +6,29 @@
 
 ---
 
+## 基于 / Based on
+
+本项目 **基于 [pojia-next](https://github.com/z91772524-ai/pojia-next)（作者
+[@z91772524-ai](https://github.com/z91772524-ai)）二次开发**。上游项目采用
+**MIT License**，允许修改、分发与商用，前提是保留其版权与署名声明。
+
+This project is **a derivative work of
+[pojia-next](https://github.com/z91772524-ai/pojia-next) by
+[@z91772524-ai](https://github.com/z91772524-ai)**, which is released under the
+**MIT License**. MIT permits modification, redistribution and commercial use,
+provided the original copyright and attribution notice is retained.
+
+| 项 / Item | 说明 / Description |
+|---|---|
+| 上游项目 / Upstream | [z91772524-ai/pojia-next](https://github.com/z91772524-ai/pojia-next)（破甲一键通） |
+| 上游许可证 / Upstream license | MIT License（原文版权行：`Copyright (c) 2026 z91772524-ai`） |
+| 本仓库改动 / This fork | 重构为 `Forge` 引擎，仅针对 **WorkBuddy** 单目标；交付形态改为 Python 源码（`forge.py` + `forge.bat` + `persona.md`）；新增反软性抵抗六条作业规范、备份基准校验等（详见「rev2.0 相对 rev1.0 的变化」） |
+| 本仓库版权 / This repo copyright | `Copyright (c) 2026 MemoAsh`（仅对二次开发新增部分） |
+
+上游原版权声明见本仓库 [LICENSE](LICENSE) 第一行，已按要求完整保留。
+
+---
+
 ## ⚠️ 免责声明 / DISCLAIMER
 
 > **本工具仅用于学习交流、个人研究与技术学习，无任何不良引导。**
@@ -197,7 +220,7 @@ are left untouched and reported honestly.
 forge.py          主程序（纯标准库，无第三方依赖）
 forge.bat         双击入口
 persona.md        操作者人格（<!-- --> 注释外的内容会被注入）
-LICENSE           MIT
+LICENSE           MIT（含上游 pojia-next 版权行 + 本仓库版权行）
 状态/             运行时状态 + 提示词快照        [运行时生成]
 历史备份/         历史备份归档                    [运行时生成]
 forge.log         运行日志                        [运行时生成]
@@ -225,4 +248,16 @@ forge.log         运行日志                        [运行时生成]
 
 ## 许可 / License
 
-MIT —— 见 [LICENSE](LICENSE)。 / MIT — see [LICENSE](LICENSE).
+本项目采用 **MIT License**，见 [LICENSE](LICENSE)。版权归属两行：
+
+- `Copyright (c) 2026 z91772524-ai (pojia-next)` —— 上游项目原作者，其 MIT 版权声明按要求完整保留。
+- `Copyright (c) 2026 MemoAsh (WKBD_rev2.0 / Forge)` —— 本仓库二次开发新增部分的著作权人。
+
+MIT 允许商用；本仓库的商用需同时保留上述两条版权与署名声明。
+
+This project is under the **MIT License** — see [LICENSE](LICENSE). Two copyright lines:
+
+- `Copyright (c) 2026 z91772524-ai (pojia-next)` — the upstream author; its MIT notice is retained as required.
+- `Copyright (c) 2026 MemoAsh (WKBD_rev2.0 / Forge)` — the author of the additions in this fork.
+
+MIT permits commercial use; any commercial use of this repo must retain both notices above.
